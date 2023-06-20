@@ -17,25 +17,25 @@ https://koreascience.kr/article/JAKO202005653789520.pdf
 https://www.kaggle.com/code/eperry26/chest-x-ray-dl
 97.5
 https://www.kaggle.com/code/arbazkhan971/pneumonia-detection-using-cnn-96-accuracy
-98
+98 (data y)
 
 흉막 삼출 effusion>>
 https://github.com/varuntahin2210/XRay-Effusion-Detection/blob/master/Working_With_Chest_XRay_Images.ipynb
 84
 
-결핵 Tuberculosis>>
+결핵 Tuberculosis>> data y
 https://www.kaggle.com/code/akshayr009/tuberculosis-0-99-accuracy
 99
 
-폐 결절 nodule>>
+폐 결절 nodule>> data y
 https://www.kaggle.com/code/vedant06/lung-cancer-cam-attempting-89-acc
 89
 
-결절 infiltration>>
+결절 infiltration>> data y
 https://www.kaggle.com/code/crawford/lung-infiltration-cnn-with-keras-on-chest-x-rays
 82
 
-심장 비대 Cardiomegaly >>
+심장 비대 Cardiomegaly >> data y
 https://www.kaggle.com/code/mohamedadel452/cardiomegaly-prediction-with-resnet50
 91
 
@@ -43,7 +43,7 @@ https://www.kaggle.com/code/mohamedadel452/cardiomegaly-prediction-with-resnet50
 https://github.com/WileyT/Emphysema_Classification/blob/main/DenseResUNet_Lung_Segmentation_Model_FINAL.ipynb
 72
 
-기흉 Pneumothorax>>
+기흉 Pneumothorax>> data y
 https://www.kaggle.com/code/ranjeetshrivastav/pneumothorax-binary-classification-xception
 92
 
