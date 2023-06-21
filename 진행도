@@ -13,7 +13,7 @@ https://koreascience.kr/article/JAKO202005653789520.pdf
 
 -----------이진분류 점수 높은 코드-------------------------
 
-폐렴 pneumonia>>
+폐렴 pneumonia>>              이진분류 작업 완료 (ㅇ)
 https://www.kaggle.com/code/eperry26/chest-x-ray-dl
 97.5
 https://www.kaggle.com/code/arbazkhan971/pneumonia-detection-using-cnn-96-accuracy
