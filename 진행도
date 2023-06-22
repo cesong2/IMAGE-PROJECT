@@ -47,10 +47,10 @@ https://github.com/WileyT/Emphysema_Classification/blob/main/DenseResUNet_Lung_S
 https://www.kaggle.com/code/ranjeetshrivastav/pneumothorax-binary-classification-xception
 92
 
-NIH 데이터셋 : Atelectasis  진행중
-              Edema        진행중
+NIH 데이터셋 : Atelectasis  진행중  57.5
+              Edema        진행중  64
               Fibrosis
-              Mass
+              Mass        진행중
 
 다중분류>>
 https://github.com/soheil-mp/Cancer-recognition-chest-X-Ray
