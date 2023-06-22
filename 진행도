@@ -47,7 +47,7 @@ https://github.com/WileyT/Emphysema_Classification/blob/main/DenseResUNet_Lung_S
 https://www.kaggle.com/code/ranjeetshrivastav/pneumothorax-binary-classification-xception
 92
 
-NIH 데이터셋 : Atelectasis  진행중  57.5
+NIH 데이터셋 : Atelectasis  진행중  59.5
               Edema        진행 보류  64
               Fibrosis
               Mass        진행중
