@@ -19,7 +19,7 @@ https://www.kaggle.com/code/eperry26/chest-x-ray-dl
 https://www.kaggle.com/code/arbazkhan971/pneumonia-detection-using-cnn-96-accuracy
 98 (data y)
 
-흉막 삼출 effusion>> 진행중
+흉막 삼출 effusion>> 완료 (ㅇ) 
 https://github.com/varuntahin2210/XRay-Effusion-Detection/blob/master/Working_With_Chest_XRay_Images.ipynb
 84
 
@@ -78,7 +78,6 @@ https://www.kaggle.com/code/nobatgeldi/vinbigdata-class-classifier
 
                                1. 데이터 수집 -완-
 
-
 프론트엔드                                      백엔드
 
 2. 로그인 페이지 생성                           2. 데이터 전처리
@@ -89,3 +88,18 @@ https://www.kaggle.com/code/nobatgeldi/vinbigdata-class-classifier
 
                              5. 화면에 적용 및 구현
 -------------------------------------
+
+
+
+진행 과정
+첫째주
+데이터 수집: 수집한 곳 url 작성해주세요
+주제선정
+
+둘째주
+DB생성, 로그인 회원가입 생성
+데이터 전처리 및 각 질병 모델 구축
+흉부 X-RAY를 이용한 질병 유무 확인
+프론트엔드 HTML 화면 구상
+
+셋째주
