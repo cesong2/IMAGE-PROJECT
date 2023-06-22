@@ -50,7 +50,7 @@ https://www.kaggle.com/code/ranjeetshrivastav/pneumothorax-binary-classification
 NIH 데이터셋 : Atelectasis  진행 중  64.5
               Edema        진행 완료 (ㅇ) 82
               Fibrosis
-              Mass        진행 보류  69
+              Mass        진행 중  69
 
 다중분류>>
 https://github.com/soheil-mp/Cancer-recognition-chest-X-Ray
