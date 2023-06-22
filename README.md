@@ -2,3 +2,5 @@
 
 모델들 저장 위치:
 https://drive.google.com/drive/folders/1kwF35t-ZpD0iJJj1pVFf8KtGfM20lhfe?usp=sharing
+
+HTML 구성: https://docs.google.com/presentation/d/1b7BcH8VtjdQAP-fsywoN1aUkzYDJy08pcymOeZ39gbs/edit?usp=sharing
