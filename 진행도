@@ -100,9 +100,14 @@ https://www.kaggle.com/code/nobatgeldi/vinbigdata-class-classifier
 둘째주
 DB생성, 로그인 회원가입 생성
 데이터 전처리 및 각 질병 모델 구축
-폐렴 pneumonia>>              이진분류 작업 완료 (ㅇ)
-흉막 삼출 effusion>> 완료 (ㅇ) 70% accuracy
-결핵 Tuberculosis>> data y 완료(ㅇ)
+이중분류 질병 모델들 구축 완료
+홈페이지 구상
+
+
+셋째주
+DB와 DJANGO를이용한 홈페이지 연결
+다중분류모델 구축
+구축 모델들 종합
 
 
 흉부 X-RAY를 이용한 질병 유무 확인
