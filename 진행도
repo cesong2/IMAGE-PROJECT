@@ -49,7 +49,8 @@ https://www.kaggle.com/code/ranjeetshrivastav/pneumothorax-binary-classification
 
 NIH 데이터셋 : Atelectasis  진행 완료 (ㅇ) 68.5
               Edema        진행 완료 (ㅇ) 83.5
-              Fibrosis    진행 중
+              Effusion    진행 중
+              Fibrosis    진행 완료 (ㅇ) 81.5
               Mass        진행 완료 (ㅇ) 67.5
 
 다중분류>>
