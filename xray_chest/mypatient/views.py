@@ -17,9 +17,6 @@ from keras.layers import Input, Lambda, GlobalAveragePooling2D
 from keras.models import Model
 import cv2
 
-
-
-
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 transform = transforms.Compose([
             transforms.Resize((224, 224)),
@@ -27,6 +24,16 @@ transform = transforms.Compose([
             transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])  # 이미지 정규화
         ])
 UPLOAD_DIR='d:/xray_chest/mypatient/static/images/'
+# 이미지 추가 전처리
+def apply_gaussian_filter(image):
+    np_image = image.numpy()  # 텐서를 넘파이 배열로 변환
+    if len(np_image.shape) == 3:
+        np_image = np_image.transpose(1, 2, 0)  # 차원 변경 (C, H, W) -> (H, W, C)
+        filtered_image = cv2.GaussianBlur(np_image, (3, 3), 0)
+        filtered_image = filtered_image.transpose(2, 0, 1)  # 차원 변경 (H, W, C) -> (C, H, W)
+        return torch.from_numpy(filtered_image)  # 넘파이 배열을 텐서로 변환
+    else:
+        return image
 
 def home(request):
     try :
@@ -321,3 +328,39 @@ def Tuberculosis(request):
     else:
         predicted_label = 'Tuberculosis'
     return render(request, 'mypatient/Tuberculosis.html', {'prediction': predicted_label})
+
+def Multiclassification(request):
+    id = request.GET["idx"]
+    pat = Patient.objects.get(idx=id)
+    # 클래스명
+    class_names = ['Atelectasis', 'Cardiomegaly', 'Edema',
+                   'Effusion', 'Fibrosis', 'Normal',
+                   'Pneumonia', 'Pneumothorax', 'Tuberculosis']
+    # 데이터 로딩 및 전처리
+    transform = transforms.Compose([
+        transforms.Resize(256),
+        transforms.RandomRotation(degrees=30),
+        transforms.RandomHorizontalFlip(p=0.5),
+        transforms.RandomCrop(size=224),
+        transforms.ColorJitter(brightness=0.4, contrast=0.4, saturation=0.4, hue=0.1),
+        transforms.ToTensor(),
+        transforms.Lambda(lambda x: apply_gaussian_filter(x)),  # 가우시안 필터링 적용
+        transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
+    ])
+    # 모델 정의 및 불러오기
+    model = torch.load('mypatient/model/MultiClassification.h5')
+    model.to(device)
+    model.eval()
+    # 이미지 불러오기
+    image = pat.picture_url
+    image_file = (f"mypatient/static/images/{image}")
+    image = Image.open(image_file)
+    image = image.convert('RGB')
+    input_image = transform(image).unsqueeze(0).to(device)
+    # 예측 수행
+    with torch.no_grad():
+        output = model(input_image)
+    # 예측 결과 확인
+    _, predicted_idx = torch.max(output, 1)
+    predicted_label = class_names[predicted_idx.item()]
+    return render(request, 'mypatient/Total.html', {'prediction': predicted_label})
