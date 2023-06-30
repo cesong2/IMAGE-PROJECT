@@ -16,4 +16,5 @@ urlpatterns = [
     path('mymember/Pneumonia/', view.Pneumonia, name='Pneumonia'),
     path('mymember/Pneumothorax/', view.Pneumothorax, name='Pneumothorax'),
     path('mymember/Tuberculosis/', view.Tuberculosis, name='Tuberculosis'),
+    path('mymember/Total/', view.Multiclassification, name='Total'),
 ]
