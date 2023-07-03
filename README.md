@@ -35,7 +35,7 @@
 - torchvision.transforms의 Resize, RandomRotation, RandomHorizonalFlip, RandomCrop, ColorJitter, ToTensor, Normalize 및 GaussianBlur로 이미지 전처리를 행함.
 - 손실함수를 CrossEntropyLoss, optimizer를 Adam으로 잡고 Epoch 30으로 돌림.
 #### 3-3. 결과
-이진 분류 모델 Atelectasis 68.5%, Edama 83.5%, Effusion 77.5%, Fibrosis 81.5%, Pneumonia 78.1%, Pneumothorax 95%, Tuberculosis 98.6%, 다중 분류 모델 54%의 정확도를 보임.
+이진 분류 모델 Atelectasis 68.5%, Cardiomegaly 75.8%, Edama 83.5%, Effusion 77.5%, Fibrosis 81.5%, Pneumonia 78.1%, Pneumothorax 95%, Tuberculosis 98.6%, 다중 분류 모델 54%의 정확도를 보임.
 ### 4. X-ray 이미지 진단 웹사이트 구현(Django)
 xray_chest
 ## 참고 자료
