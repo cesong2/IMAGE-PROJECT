@@ -33,9 +33,9 @@ packages : numpy, pandas, seaborn, os, shutil, pathlib, matplotlib, sklearn, ski
 ### 4. X-ray 이미지 진단 웹사이트 구현(Django)
 xray_chest
 ## 참고 자료
-모델들 저장 위치 :
+- 모델들 저장 위치 :
 https://drive.google.com/drive/folders/1lZXUQ-BEtSo6AYv0JqC4qfrtdDbEdHhe?usp=sharing
-HTML 구성 :
+- HTML 구성 :
 https://docs.google.com/presentation/d/1b7BcH8VtjdQAP-fsywoN1aUkzYDJy08pcymOeZ39gbs/edit?usp=sharing
-발표 PPT :
+- 발표 PPT :
 https://docs.google.com/presentation/d/1dIO3kovVmwl8DF6dhin8MZSM5tbUeZvCIqvJuCNHL_k/edit?usp=sharing
