@@ -1,11 +1,11 @@
 # 흉부 X-ray를 통한 질병 유무 파악 모델
 ## 데이터 출처
 - Chest X-Ray Images (Pneumonia)
-link : https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+/ link : https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 - Tuberculosis (TB) Chest X-ray Database
-link : https://www.kaggle.com/datasets/tawsifurrahman/tuberculosis-tb-chest-xray-dataset
+/ link : https://www.kaggle.com/datasets/tawsifurrahman/tuberculosis-tb-chest-xray-dataset
 - NIH Chest X-rays
-link : https://www.kaggle.com/datasets/nih-chest-xrays/data
+/ link : https://www.kaggle.com/datasets/nih-chest-xrays/data
 ## 사용 언어 및 라이브러리
 - Python (Visual Studio Code)
 packages : numpy, pandas, seaborn, os, shutil, pathlib, matplotlib, sklearn, skimage, tensorflow, torch/torchvision, PIL, cv2
