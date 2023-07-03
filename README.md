@@ -1,4 +1,10 @@
 # 흉부 X-ray를 통한 질병 유무 파악 모델
+- 사용 방법
+-> X-ray 파일을 다운로드
+-> D드라이브에 추가 후, pycharm으로 실행
+-> migration, migrate
+-> python manage.py runserver
+
 ## 데이터 출처
 - Chest X-Ray Images (Pneumonia)
 / link : https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
