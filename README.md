@@ -7,7 +7,7 @@
 - NIH Chest X-rays
 / link : https://www.kaggle.com/datasets/nih-chest-xrays/data
 ## 사용 언어 및 라이브러리
-- Python (Visual Studio Code, Colab)
+- Python (Visual Studio Code, Google Colab)
 / packages : numpy, pandas, seaborn, glob, os, shutil, pathlib, matplotlib, sklearn, skimage, tensorflow, torch/torchvision, PIL, cv2
 - HTML, CSS, JS, MySQL (Django)
 ## 진행 과정
