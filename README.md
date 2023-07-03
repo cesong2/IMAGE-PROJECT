@@ -25,9 +25,9 @@
 #### 3-1. 이진 분류 모델
 - 이미지 분류에 특화된 모델을 여러가지 찾아봄.
 - 처음에는 CheXNet(DenseNet)으로 시도해 보았으나, 메모리 부족으로 실패.
-- 경량화된 모델인 MoblieNet을 대신 사용함.
+- 경량화된 모델인 MobileNet을 대신 사용함.
 - torchvision.transforms의 Resize, RandomCrop, ToTensor, Noemalize로 이미지 전처리를 행함.
-- 손실함수를 CrossEntropyLoss, optimizer를 Adam으로 잡고 Epoch 1로 돌림(Eopch 2 이상에서 과적합 발견).
+- 손실함수를 CrossEntropyLoss, optimizer를 Adam으로 잡고 Epoch 1로 돌림(Epoch 2 이상에서 과적합 발견).
 #### 3-2. 다중 분류 모델
 - 이미지 분류에 특화된 모델을 여러가지 찾아봄.
 - DenseNet, ResNet, VGGNet, MobileNet, SqueezeNet, ShuffleNet, EfficientNet으로 시도.
