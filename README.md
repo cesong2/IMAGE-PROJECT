@@ -38,4 +38,4 @@ https://drive.google.com/drive/folders/1lZXUQ-BEtSo6AYv0JqC4qfrtdDbEdHhe?usp=sha
 - HTML 구성 :
 https://docs.google.com/presentation/d/1b7BcH8VtjdQAP-fsywoN1aUkzYDJy08pcymOeZ39gbs/edit?usp=sharing
 - 발표 PPT :
-https://docs.google.com/presentation/d/1Er2joxUuZdLO1go-fyhQKWXsV3WoEb7-0mJmTqM_Zh8/edit#slide=id.gc6f919934_0_0
+https://docs.google.com/presentation/d/1Er2joxUuZdLO1go-fyhQKWXsV3WoEb7-0mJmTqM_Zh8/edit?usp=sharing
